@@ -15,6 +15,13 @@ public class Mouse {
 		this.address = address;
 	}
 
+	public Mouse(String name, String country, String address)
+	{
+		this.name = name;
+		this.country = country;
+		this.address = address;
+	}
+
 	public int getId() {
 		return id;
 	}
