@@ -1,7 +1,6 @@
 package dev.mouse.domain;
 
 public class Mouse {
-	
 	private int id;
 	private String name;
 	private String country;

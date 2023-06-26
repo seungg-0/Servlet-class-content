@@ -2,7 +2,6 @@ package dev.mouse.repository;
 
 import java.io.IOException;
 
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -13,8 +12,6 @@ import dev.mouse.domain.Mouse;
 
 @WebServlet("/add")
 public class MouseAdd extends HttpServlet{
-	
-	
 	MouseDAO mouseDAO = new MouseDAO();
 	
 	@Override
@@ -32,7 +29,6 @@ public class MouseAdd extends HttpServlet{
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
 		
 //		String path = "/mice";
 //		RequestDispatcher dispatcher = request.getRequestDispatcher(path);
